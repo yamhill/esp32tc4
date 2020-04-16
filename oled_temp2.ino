@@ -1,4 +1,4 @@
-// here is a simple attempt to get some inexpensive hardware esp32 and max6675 and thermocouples
+// here is a simple attempt to get an esp32, two max6675 and thermocouples
 // to track temperature and respond like a TC4 for artisan and roast logger software
 
 #include <max6675.h>"
@@ -86,7 +86,7 @@ void Command_WRITE(){
     Serial.println(",0.00,0.00");
 }
 
-//Parsing Serial Commands
+//Parsing Serial Commands -- copied from a poster on home-barista forum -- could be qualified more specifically
 void handleSerialCommand(){   
 
    if (Serial.available()>0){
