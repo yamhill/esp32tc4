@@ -11,6 +11,7 @@
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+// 16 is the pin for TTGO ESP32 with OLED
 #define OLED_RESET 16 // Reset pin # (or -1 if sharing Arduino reset pin)
 
 TwoWire twi = TwoWire(1); // our own TwoWire instance on bus 1
