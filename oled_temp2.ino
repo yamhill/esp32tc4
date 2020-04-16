@@ -19,7 +19,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &twi, OLED_RESET);
  
 int thermoDO = 19; //called SO on the max6675
 int thermoCS = 23; //called CS on the max6675
-int thermoCLK = 18; //called 
+int thermoCLK = 18; //called SCK on the max6675
 
 int thermoCS2 = 5;
 
