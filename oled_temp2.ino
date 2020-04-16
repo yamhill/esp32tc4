@@ -1,3 +1,6 @@
+// here is a simple attempt to get some inexpensive hardware esp32 and max6675 and thermocouples
+// to track temperature and respond like a TC4 for artisan and roast logger software
+
 #include <max6675.h>"
 
 #include <Wire.h>
