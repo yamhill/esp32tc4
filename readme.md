@@ -14,8 +14,6 @@ ordered via: https://www.aliexpress.com/item/32795229358.html
 
 Pin map for above the ESP32 board:
 https://0.rc.xiniu.com/g1/M00/29/CB/CgAGTF1agBWASwmZAAF9zU1LNpY299.jpg
-
 ![picture alt](https://0.rc.xiniu.com/g1/M00/29/CB/CgAGTF1agBWASwmZAAF9zU1LNpY299.jpg "Pin map")
 
 It's just a little code to use ttgo esp32 board with two max6675 and oled -- to work like a TC4 to artisan roasting software
-
